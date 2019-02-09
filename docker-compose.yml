@@ -6,8 +6,3 @@ services:
     ports:
       - "8080:80"
     container_name: dotnet
-#    links:
-#      - artifactory
-#    volumes: 
-#      - ./jenkins:/var/jenkins_home:rw
-
