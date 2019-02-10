@@ -4,6 +4,9 @@ This is simple example for building ASP.NET Core Docker Image and run it
 
 ``` docker-compose run -d ```
 
+To use Docker file only 
+
+```docker run -it --rm -v $PWD:/app -w /aspnetapp -p 8080:80 microsoft/dotnet:2.2-sdk  /bin/sh```
 
 To build the app not using docker 
 
